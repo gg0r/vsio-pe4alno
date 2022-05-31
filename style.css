@@ -1,0 +1,288 @@
+head,
+body,
+footer {
+    padding: 0px 80px 0px 80px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.left-block-header {
+    width: 641px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 15px;
+}
+
+.navigation {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    color: black;
+}
+
+.right-block-header {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: black;
+    margin-right: 20px;
+}
+
+.icon-style {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background: #F2F3F5;
+    margin-left: 20px;
+}
+
+i {
+    margin-left: 16px;
+}
+
+.panel {
+    display: flex;
+}
+
+.first-block {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background: #F5F5F5;
+    max-width: 1440px;
+    margin-bottom: 40px;
+}
+
+.text-first-block {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 53px;
+    width: 584px;
+    margin-bottom: 10px;
+    margin-left: 62px;
+}
+
+.bottom-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    margin-left: 62px;
+}
+
+.right-block {
+    width: 1000px;
+    height: 100%;
+    background-image: url(./images/png-transparent-car-wheel-tire-rim-motor-vehicle-service-car-car-automobile-repair-shop-vehicle-depositphotos-bgremover\ 1.png), url(./images/Ellipse\ 7.png);
+    background-repeat: no-repeat;
+    background-size: 550px;
+    background-position: -84px 162px, -41px 380px;
+}
+
+.middle-first-block {
+    width: 350px;
+    height: 140px;
+    background: #FFFFFF;
+    border: 1.5px solid #F2F2F2;
+    border-radius: 5px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.pic-seat {
+    background: #F9F9F9;
+    width: 161px;
+    display: flex;
+    align-items: center;
+    height: 137px;
+}
+
+h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.middle-first-block-text {
+    padding-left: 15px;
+    width: 201px;
+    display: grid;
+    align-items: center;
+}
+
+.middle-block {
+    display: flex;
+    margin-bottom: 81px;
+}
+
+.main-block {
+    width: 1274px;
+    height: 804px;
+}
+
+.menu-block {
+    width: 380px;
+    height: 732px;
+    border-radius: 5px;
+    background: #F7F7F7;
+    justify-content: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.menu1 {
+    height: 76px;
+    background: #4200FF;
+    display: flex;
+    align-items: center;
+    padding: 0px 19px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.menu1-block {
+    display: flex;
+    align-items: center;
+}
+
+.tyre-pic {
+    width: 36px;
+    height: 36px;
+}
+
+.text1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 0 19px;
+}
+
+.menu2 {
+    display: flex;
+    height: 76px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 19px;
+}
+
+.main-block {
+    widows: 1274px;
+    height: 804px;
+}
+
+.rullar-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    padding: 0 19px;
+}
+
+.allmenu-block {
+    display: flex;
+    align-items: center;
+}
+
+.seat-pic {
+    width: 59px;
+    height: 40px;
+}
+
+.menu3 {
+    display: flex;
+    align-items: center;
+    height: 76px;
+    justify-content: space-between;
+    padding: 0px 19px 0px 6px;
+}
+
+.wheel-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    padding: 0 8px;
+}
+
+.akum-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    padding: 0 76px 0px 21px;
+}
+
+.menu4 {
+    display: flex;
+    align-items: center;
+    height: 76px;
+    padding: 0 19px;
+    justify-content: space-between;
+    padding: 0px 19px 0px 15px;
+}
+
+.tyre-block1 {
+    width: 258px;
+    height: 356px;
+}
+
+.hankook-block {
+    width: 278px;
+    height: 356px;
+}
+
+.hankook-pic {
+    width: 278px;
+    height: 229px;
+    background: #F7F7F7;
+    border-radius: 5px 5px 0px 0px;
+}
