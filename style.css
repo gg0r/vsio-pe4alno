@@ -144,6 +144,7 @@ p {
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .middle-first-block-text {
@@ -161,6 +162,7 @@ p {
 .main-block {
     width: 1274px;
     height: 804px;
+    display: flex;
 }
 
 .menu-block {
@@ -168,9 +170,9 @@ p {
     height: 732px;
     border-radius: 5px;
     background: #F7F7F7;
-    justify-content: center;
     padding: 0 15px;
     box-sizing: border-box;
+    margin-right: 20px;
 }
 
 .menu1 {
@@ -209,11 +211,6 @@ p {
     align-items: center;
     justify-content: space-between;
     padding: 0 19px;
-}
-
-.main-block {
-    widows: 1274px;
-    height: 804px;
 }
 
 .rullar-text {
@@ -278,6 +275,9 @@ p {
 .hankook-block {
     width: 278px;
     height: 356px;
+    display: grid;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .hankook-pic {
@@ -285,4 +285,23 @@ p {
     height: 229px;
     background: #F7F7F7;
     border-radius: 5px 5px 0px 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-hankook {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: black;
+    padding-left: 20px;
+    width: 223px;
+    height: 64px;
+}
+
+.fa-star {
+    color: #FED712;
 }
