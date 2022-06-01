@@ -150,8 +150,6 @@ p {
 .middle-first-block-text {
     padding-left: 15px;
     width: 201px;
-    display: grid;
-    align-items: center;
 }
 
 .middle-block {
