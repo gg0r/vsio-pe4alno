@@ -159,7 +159,6 @@ p {
 
 .main-block {
     width: 1274px;
-    height: 804px;
     display: flex;
 }
 
@@ -178,7 +177,6 @@ p {
     background: #4200FF;
     display: flex;
     align-items: center;
-    padding: 0px 19px;
     border-radius: 5px;
     justify-content: space-between;
 }
@@ -275,7 +273,7 @@ p {
     height: 356px;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .hankook-pic {
@@ -327,4 +325,6 @@ p {
 
 .hankook-tyres {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
