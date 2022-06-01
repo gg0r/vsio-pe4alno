@@ -300,8 +300,29 @@ p {
     padding-left: 20px;
     width: 223px;
     height: 64px;
+    display: flex;
+    align-items: center;
 }
 
 .fa-star {
     color: #FED712;
+    font-size: 12px;
+    width: 0px;
+}
+
+.price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4200FF;
+    display: flex;
+    padding: 0 0 0 83px;
+}
+
+.stars {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
 }
