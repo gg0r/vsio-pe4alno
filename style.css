@@ -82,6 +82,7 @@ i {
     background: #F5F5F5;
     max-width: 1440px;
     margin-bottom: 40px;
+    border-radius: 5px;
 }
 
 .text-first-block {
@@ -726,4 +727,93 @@ p {
     justify-content: space-around;
     display: flex;
     align-items: center;
+}
+
+.cars-logo-section {
+    margin-bottom: 120px
+}
+
+footer {
+    background: #2F2F2F;
+    height: 331px;
+}
+
+.contact-footer {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-right: 115px
+}
+
+.contact-logo {
+    padding-top: 30px;
+}
+
+.tovar-block {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    width: 216px;
+}
+
+.title-left-footer {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.first-list {
+    padding-top: 40px;
+    margin-right: 80px;
+}
+
+.first-list div {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    color: #FFFFFF;
+}
+
+.left-footer {
+    display: flex
+}
+
+.second-list {
+    padding-top: 40px;
+    margin-right: 216px
+}
+
+.second-list div {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    color: #FFFFFF;
+}
+
+.right-footer-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    padding-top: 46px
+}
+
+.social-networks {
+    padding: 23px 0px 0 125px;
 }
