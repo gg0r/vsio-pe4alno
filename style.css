@@ -736,6 +736,8 @@ p {
 footer {
     background: #2F2F2F;
     height: 331px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contact-footer {
@@ -792,7 +794,6 @@ footer {
 
 .second-list {
     padding-top: 40px;
-    margin-right: 216px
 }
 
 .second-list div {
@@ -811,9 +812,16 @@ footer {
     font-size: 24px;
     line-height: 31px;
     color: #FFFFFF;
-    padding-top: 46px
+    padding-top: 46px;
+    margin-bottom: 23px;
 }
 
 .social-networks {
-    padding: 23px 0px 0 125px;
+    text-align: right;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
 }
