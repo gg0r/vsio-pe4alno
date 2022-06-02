@@ -488,13 +488,15 @@ p {
     color: black;
 }
 
+.items-block {
+    margin-bottom: 80px;
+}
+
 .title-items-block {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
-
-.items-block {}
 
 .case-block {
     width: 304px;
@@ -522,8 +524,9 @@ p {
     color: black;
     display: flex;
     align-items: center;
-    width: 242px;
-    height: 44px;
+    width: 277px;
+    height: 90px;
+    padding: 0 0 0 20px;
 }
 
 .items-stars {
@@ -540,5 +543,187 @@ p {
     line-height: 23px;
     color: #4200FF;
     display: flex;
-    padding: 0 0 0 83px;
+    padding: 0 0 0 93px;
+}
+
+.akumr-block {
+    width: 304px;
+    height: 356px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.akumr-pic {
+    width: 304px;
+    height: 229px;
+    background: #F7F7F7;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.akumr-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: black;
+    display: flex;
+    align-items: center;
+    width: 277px;
+    height: 90px;
+    padding: 0 0 0 20px;
+}
+
+.items-middle-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.four-tyres-block {
+    width: 304px;
+    height: 356px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.four-tyres-pic {
+    width: 304px;
+    height: 229px;
+    background: #F7F7F7;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.honda.wheel-block {
+    width: 304px;
+    height: 356px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.honda-wheel-pic {
+    width: 304px;
+    height: 229px;
+    background: #F7F7F7;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cars-logo-title h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: black;
+}
+
+.cars-logo-title {
+    margin-bottom: 30px;
+}
+
+.cars-logo-block {
+    width: 305px;
+    height: 180px;
+    background: #F7F7F7;
+    border-radius: 5px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.audi-logo-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: black;
+    text-align: center;
+}
+
+.main-cars-logo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.merc-logo-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.merc-pic {
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.daewoo-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.daewoo-pic {
+    padding-bottom: 16px;
+}
+
+.hyundai-pic {
+    padding: 0 0 19px 5px;
+}
+
+.tesla-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.ford-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.cheve-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    height: 30px;
+}
+
+.cheve-pic {
+    height: 96px;
+}
+
+.cars-logo-block2 {
+    width: 305px;
+    height: 180px;
+    background: #F7F7F7;
+    border-radius: 5px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
 }
