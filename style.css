@@ -342,6 +342,10 @@ p {
     padding: 0 0 0 83px;
 }
 
+.corner-white {
+    color: white
+}
+
 .stars {
     display: flex;
     padding-bottom: 20px;
