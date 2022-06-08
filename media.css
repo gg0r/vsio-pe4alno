@@ -23,4 +23,17 @@
     .contact {
         margin-left: 15px;
     }
+    header {
+        flex-direction: column;
+    }
+    .left-block-header {
+        width: unset;
+        justify-content: space-between;
+    }
+    .right-block-header {
+        width: unset;
+        justify-content: space-between;
+    }
 }
+
+@media (max-width: 768) {}
