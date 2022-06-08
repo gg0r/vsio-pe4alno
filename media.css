@@ -1,0 +1,26 @@
+@media (max-width: 1200px) {
+    header {
+        padding: 0 25px;
+    }
+    .leaft-block-header {
+        width: 596px;
+    }
+    .contact {
+        margin-right: 0px;
+    }
+    .right-block-header {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1024px) {
+    nav {
+        margin-right: -30px;
+    }
+    .icon-style {
+        margin-left: 0px;
+    }
+    .contact {
+        margin-left: 15px;
+    }
+}
