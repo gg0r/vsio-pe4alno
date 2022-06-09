@@ -11,6 +11,11 @@ footer {
     max-width: 1440px;
 }
 
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -27,10 +32,7 @@ header {
 ul {
     display: flex;
     list-style-type: none;
-}
-
-li {
-    margin-right: 15px;
+    gap: 15px;
 }
 
 .navigation {
@@ -54,7 +56,7 @@ li {
     font-size: 18px;
     line-height: 23px;
     color: black;
-    margin-right: 20px;
+    padding-right: 40px;
 }
 
 .icon-style {
@@ -64,7 +66,6 @@ li {
     display: flex;
     align-items: center;
     background: #F2F3F5;
-    margin-left: 20px;
 }
 
 i {
@@ -73,6 +74,7 @@ i {
 
 .panel {
     display: flex;
+    gap: 20px;
 }
 
 .first-block {
@@ -80,9 +82,9 @@ i {
     display: flex;
     align-items: center;
     background: #F5F5F5;
-    max-width: 1440px;
     margin-bottom: 40px;
     border-radius: 5px;
+    padding: 62px;
 }
 
 .text-first-block {
@@ -93,7 +95,6 @@ i {
     line-height: 53px;
     width: 584px;
     margin-bottom: 10px;
-    margin-left: 62px;
 }
 
 .bottom-text {
@@ -102,7 +103,6 @@ i {
     font-weight: 400;
     font-size: 28px;
     line-height: 36px;
-    margin-left: 62px;
 }
 
 .right-block {
@@ -111,7 +111,7 @@ i {
     background-image: url(./images/png-transparent-car-wheel-tire-rim-motor-vehicle-service-car-car-automobile-repair-shop-vehicle-depositphotos-bgremover\ 1.png), url(./images/Ellipse\ 7.png);
     background-repeat: no-repeat;
     background-size: 550px;
-    background-position: -84px 162px, -41px 380px;
+    background-position: -57px 100px, -30px 314px;
 }
 
 .middle-first-block1 {
@@ -298,7 +298,6 @@ p {
     height: 356px;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    margin-bottom: 20px;
 }
 
 .hankook-pic {
@@ -355,7 +354,7 @@ p {
 .hankook-tyres {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 20px;
 }
 
 .block-ads {
@@ -534,6 +533,11 @@ p {
     padding: 0 0 0 20px;
 }
 
+.block-stars-price {
+    display: flex;
+    justify-content: space-between;
+}
+
 .items-stars {
     display: flex;
     padding-bottom: 20px;
@@ -548,7 +552,7 @@ p {
     line-height: 23px;
     color: #4200FF;
     display: flex;
-    padding: 0 0 0 93px;
+    padding: 0 20px;
 }
 
 .akumr-block {
@@ -604,7 +608,7 @@ p {
     justify-content: center;
 }
 
-.honda.wheel-block {
+.honda-wheel-block {
     width: 304px;
     height: 356px;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
@@ -754,10 +758,6 @@ footer {
     margin-right: 115px
 }
 
-.contact-logo {
-    padding-top: 30px;
-}
-
 .tovar-block {
     font-family: 'DM Sans';
     font-style: normal;
@@ -768,6 +768,10 @@ footer {
     width: 216px;
 }
 
+footer {
+    padding-top: 30px;
+}
+
 .title-left-footer {
     font-family: 'DM Sans';
     font-style: normal;
@@ -775,11 +779,10 @@ footer {
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .first-list {
-    padding-top: 40px;
     margin-right: 80px;
 }
 
@@ -794,10 +797,6 @@ footer {
 
 .left-footer {
     display: flex
-}
-
-.second-list {
-    padding-top: 40px;
 }
 
 .second-list div {
@@ -816,7 +815,6 @@ footer {
     font-size: 24px;
     line-height: 31px;
     color: #FFFFFF;
-    padding-top: 46px;
     margin-bottom: 23px;
 }
 
